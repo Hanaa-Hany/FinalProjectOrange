@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/product_nav"
+    app:startDestination="@id/exploreProductFragment">
+
+
+    <fragment
+        android:id="@+id/exploreProductFragment"
+        android:name="com.hanaahany.finalprojectorange.ui.fragment.main.home.product.ExploreProductFragment"
+        android:label="fragment_explore_product"
+        tools:layout="@layout/fragment_explore_product" >
+        <action
+            android:id="@+id/action_exploreProductFragment_to_productDetailsFragment"
+            app:destination="@id/productDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/productDetailsFragment"
+        android:name="com.hanaahany.finalprojectorange.ui.fragment.main.home.product.ProductDetailsFragment"
+        android:label="fragment_product_details"
+        tools:layout="@layout/fragment_product_details" >
+        <argument
+            android:name="id"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <action
+            android:id="@+id/action_productDetailsFragment_to_cartFragment"
+            app:destination="@id/cartFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.hanaahany.finalprojectorange.ui.fragment.main.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_exploreCategoryProductFragment"
+            app:destination="@id/exploreCategoryProductFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/exploreCategoryProductFragment"
+        android:name="com.hanaahany.finalprojectorange.ui.fragment.main.home.product.ExploreCategoryProductFragment"
+        android:label="fragment_explore_category_product"
+        tools:layout="@layout/fragment_explore_category_product" />
+    <fragment
+        android:id="@+id/cartFragment"
+        android:name="com.hanaahany.finalprojectorange.ui.fragment.main.home.cart.CartFragment"
+        android:label="fragment_cart"
+        tools:layout="@layout/fragment_cart" >
+        <argument
+            android:name="product"
+            app:argType="com.hanaahany.finalprojectorange.model.ProductModelDetails" />
+        <action
+            android:id="@+id/action_cartFragment_to_successOrderFragment"
+            app:destination="@id/successOrderFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/successOrderFragment"
+        android:name="com.hanaahany.finalprojectorange.ui.fragment.main.home.SuccessOrderFragment"
+        android:label="fragment_success_order"
+        tools:layout="@layout/fragment_success_order" />
+</navigation>

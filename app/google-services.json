@@ -1,0 +1,97 @@
+{
+  "project_info": {
+    "project_number": "436732974702",
+    "project_id": "finalproject-9fcc7",
+    "storage_bucket": "finalproject-9fcc7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:436732974702:android:d052a9c29230871c06387f",
+        "android_client_info": {
+          "package_name": "com.example.finalproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "436732974702-tvca491uba5jfs6p1mrkhjbvce9dtpt5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBryEEsKp82dQzSnKvoMAq3MSgZliiTii4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "436732974702-tvca491uba5jfs6p1mrkhjbvce9dtpt5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:436732974702:android:201fb84f350a9df106387f",
+        "android_client_info": {
+          "package_name": "com.example.notesfirebaseapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "436732974702-tvca491uba5jfs6p1mrkhjbvce9dtpt5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBryEEsKp82dQzSnKvoMAq3MSgZliiTii4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "436732974702-tvca491uba5jfs6p1mrkhjbvce9dtpt5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:436732974702:android:4d27aa4b43eea3a906387f",
+        "android_client_info": {
+          "package_name": "com.hanaahany.finalprojectorange"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "436732974702-tvca491uba5jfs6p1mrkhjbvce9dtpt5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBryEEsKp82dQzSnKvoMAq3MSgZliiTii4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "436732974702-tvca491uba5jfs6p1mrkhjbvce9dtpt5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
